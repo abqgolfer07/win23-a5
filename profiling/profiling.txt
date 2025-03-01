@@ -1,0 +1,7 @@
+quicksort
+while j >= 0 and v < array[j]:
+return array
+right = [i for i in array[1:] if i >= pivot]
+return quicksort(left) + [pivot] + quicksort(right)
+for i in range(low, high):
+quicksort_inplace(array, low, j)
